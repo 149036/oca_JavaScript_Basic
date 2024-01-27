@@ -10,6 +10,7 @@ const all_fail = Promise.any([
   Promise.reject(new Error("エラー")),
 ]);
 
+
 all_fail;
 
 any_success;
