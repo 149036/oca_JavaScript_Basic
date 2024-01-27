@@ -1,7 +1,8 @@
 type A = {
-  (): void;
+  name: string;
+  fn?: () => void;
 };
 
-const a: A = (): void => {};
+const a: A = { name: "name", fn: () => void {} };
 
 console.log(a);
