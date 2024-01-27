@@ -1,6 +1,6 @@
 type A = {
   name: string;
-  fn?: () => void;
+  readonly fn?: () => void;
 };
 
 const a: A = { name: "name", fn: () => void {} };
