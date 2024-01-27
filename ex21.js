@@ -8,3 +8,4 @@ promise_gen.next();
 promise_gen.next();
 promise_gen.next();
 promise_gen.next();
+promise_gen.next();
